@@ -1,0 +1,155 @@
+header {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F0D9B5;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.button-header {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.button-header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.button-header ul a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.buttonLogin{
+    display: inline-flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #AC7344;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.60);
+    color: #AC7344;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    cursor: pointer;
+}
+
+.buttonSign{
+    display: inline-flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: #AC7344;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.60);
+    color: #FFF;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    cursor: pointer;
+}
+/* Fundo não estava aparecendo, resolvido utilizando ../ */
+.main {
+    background-image: url(../fundoLogin.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.main h2 {
+    margin: 313px 0 0 0;
+    color: #fff;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.46px;
+}
+
+main .sent{
+    display: flex;
+    width: 185px;
+    height: 46px;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #AC7344;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.60);
+    color: #FFF;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    cursor: pointer;
+}
+
+.main input{
+    border-radius: 30px;
+    border: 6px solid #B58863;
+    background: #FFF;
+    width: 48.75vw;
+    height: 5.86vh;
+    flex-shrink: 0;
+    margin: 55px 0 50px 0;
+}
+
+.main input::placeholder{
+    padding: 19px 0 17px 17px;
+    color: #AC7344;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 22.07px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.662px;
+}
+
+.user{
+    background-color: transparent;
+    color: #FFF;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 19.07px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.572px;
+    border: none;
+    margin: 125px 0 125px 0;
+}
+
+.user strong{
+    font-size: 19.07px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: -0.572px;
+}
+
+/* Recomendo implementar o hover nos botões de iniciar sessão e cadastro. */
